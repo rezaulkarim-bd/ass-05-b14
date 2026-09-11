@@ -5,26 +5,16 @@ import Banner from './components/Banner'
 import Footer from './components/Footer'
 import Nav from './components/Nav'
 import type { Technology } from './components/types/Types'
-import TechnologyListCard from './components/tecnology/TechnologyListCard'
+import Technologies from './components/tecnology/Technologies'
 
-const TechnologyListCardFetch =async() :Promise<Technology[]>=>{
+
+const technologiesFetch =async() :Promise<Technology[]>=>{
   const res = await fetch("/public/data.json")
   const data = await res.json()
   return data
 
 }
-
-
-// const playersFetch = async() :Promise<Iplayer[]>=>{
-//   const res = await fetch("/data.json");
-//   const data =await res.json();
-//   return data;
-// }
-// function App() {
-//   const [coin,setCoin] = useState(2000)
-// const playersPromise =playersFetch()
-
-//   return (
+      //  return (
 //     <>
     
 //       <Nav coin={coin}></Nav>
@@ -35,6 +25,7 @@ const TechnologyListCardFetch =async() :Promise<Technology[]>=>{
       
 
 function App() {
+  const technologiesPromise = technologiesFetch()
 
 
   return (
@@ -43,7 +34,7 @@ function App() {
      <Nav></Nav>
      <Banner></Banner>
      <Suspense fallback={<h2>Loading.......</h2>}>
-      <TechnologyListCard></TechnologyListCard>
+     <Technologies technologiesPromise={technologiesPromise}></Technologies>
      </Suspense>
      <Footer></Footer>
     
