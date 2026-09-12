@@ -16,7 +16,7 @@ const Nav = () => {
         </a>
         {/* <img src={Logo} alt="" /> */}
       </div>
-      <div className=' gap-4 items-center flex justify-between'>
+      <div className=' gap-4 items-center flex justify-between text-black'>
           <p>Home</p>
           <p>Tecnology</p>
           <p>Projects</p>
