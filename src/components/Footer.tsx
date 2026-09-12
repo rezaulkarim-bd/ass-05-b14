@@ -88,7 +88,7 @@ const Footer = () => {
     <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
     
       <p className="text-xs text-gray-500">
-        &copy; <span id="current-year">2026</span> AcmeCorp, Inc. All rights reserved.
+       <span id="current-year">2026</span> AcmeCorp, Inc. All rights reserved.
       </p>
 
       <div className="flex items-center space-x-6">
