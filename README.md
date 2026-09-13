@@ -5,6 +5,7 @@ Dev Stack Explorer
 Description :
 An interactive web application built for modern developers to discover, evaluate, and curate their ideal technology stack seamlessly from a structured local dataset.
 
+
 Technologies Used :
 
 React.js & TypeScript

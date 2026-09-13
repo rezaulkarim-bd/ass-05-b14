@@ -1,5 +1,6 @@
-import React from 'react';
-import  type { Technology } from '../types/Technology';
+import type { Technology } from "../types/Technology";
+
+
 
 interface Props {
   stack: Technology[];

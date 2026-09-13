@@ -1,6 +1,7 @@
-import React from 'react';
-import  type { Technology } from '../types/Technology';
+
+
 import { toast } from 'react-toastify';
+import type { Technology } from '../types/Technology';
 
 
 
