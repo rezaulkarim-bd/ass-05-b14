@@ -42,18 +42,7 @@
         </div>
 
       </div>
-{/* 
-      
-      <div className="mx-auto max-w-6xl px-6 pb-8">
-        <h2 className="text-2xl font-bold text-slate-900">
-          Explore the{" "}
-          <span className="text-pink-500">Technologies</span>
-        </h2>
 
-        <p className="text-xs text-gray-400">
-          Pick one technology per category to build your ideal stack.
-        </p>
-      </div> */}
     </section>
   );
 };
